@@ -1,5 +1,8 @@
 function squareDigits(num){
-
+  const tabChiffres = squareDigits.toString;
+  new Number(tabChiffres);
+  
+  console.log(tabChiffres);
 }
 
 

@@ -1,11 +1,11 @@
-function abreviation(str) {
-  const str = "".slice;
+  function abreviation(str){
+    const splitNoms = str.slice(" ");
 
-  const name = [abreviation];
-
-  console.log(name);
-  const initiale = abreviation;
-}
+    return `${splitNoms[0]} ${splitNoms[1].chartAt(0)}.`
+    // console.log(splitNoms);
+  }
+// ATTENTION JE N AI PAS COMPRIS - A REVOIR ET REFAIRE
+// et en plus ça ne marche pas -_-
 
 /* ÉNONCÉ 📚 */
 
