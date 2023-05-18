@@ -1,6 +1,20 @@
 function getVowelsNumber(txt) {
-  const regexVoyelles = /([a,e,i,o,u,y]|)+/gi;
+  function getVowelsNumber(txt) {
+    //  /g pour ne pas s'arrêter à la première occurence et i pour l'insensibilité à la casse
+    const vowels = txt.match(/[aeiouy]/gi);
+
+    if (vowels) {
+      return vowels.length;
+    } else {
+      return 0;
+    }
+  }
 }
+
+const getVowelsNumber = (txt) =>
+  (txt.matchvowels = txt.match(/[aeiouy]/gi)
+    ? txt.match(/[aeiouy]/gi).length
+    : 0);
 
 /* ÉNONCÉ 📚 */
 
